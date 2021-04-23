@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  background: #ffff99;
+}
+
+header h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  opacity: 0.8;
+}
+
+.input-div {
+  display: flex;
+  border-bottom: 1px solid white;
+}
+
+header input {
+  font-size: 24px;
+  width: 320px;
+  margin: 0px 0px 20px 40px;
+  outline: none;
+}
+
+.addBtn {
+  height: 34px;
+  width: 100px;
+  border: none;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+}
+
+ul li {
+  cursor: pointer;
+  background: #ffff99;
+  position: relative;
+  font-size: 21px;
+  padding: 12px 0 12px 40px;
+  transition: 0.3s;
+  margin: 1px 0;
+}
+
+ul li:hover {
+  background: #fbe364;
+}
+
+.del-btn {
+  position: absolute;
+  right: 0;
+  border: none;
+  background: #ffff99;
+  padding: 16px;
+  top: 0;
+  cursor: pointer;
+}
+
+.del-btn:hover {
+  scale: 1.1;
+}
