@@ -61,6 +61,10 @@ ul li:hover {
   background: #fbe364;
 }
 
+.done {
+  text-decoration: line-through;
+}
+
 .del-btn {
   position: absolute;
   right: 0;
@@ -72,5 +76,6 @@ ul li:hover {
 }
 
 .del-btn:hover {
-  scale: 1.1;
+  background: rgb(245, 81, 81);
+  transition-duration: 0.3s;
 }
